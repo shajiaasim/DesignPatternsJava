@@ -17,10 +17,10 @@ class Handler{
         rectangle.draw();
 
         Shape circle = ShapeFactory.getShape("Circle");
-        rectangle.draw();
+        circle.draw();
 
         Shape square = ShapeFactory.getShape("Square");
-        rectangle.draw();
+        square.draw();
 
 
     }
